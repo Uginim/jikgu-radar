@@ -1,13 +1,13 @@
-# 세 줄로 시작하기
+# GPU 없이 영상 속 세 상품을 다시 검사하기
 
-1. 이 저장소를 내려받아 압축을 풀고 터미널에서 `README.md`가 있는 폴더로 이동한다. Python 3.12 이상과 `uv` 또는 `pip`가 필요하다. 처음 한 번 의존성을 설치할 때 인터넷이 필요하다.
-2. `./judge.sh`를 실행한다. 세 상품을 새 사건으로 검사하고 결과 주소를 출력한다. GPU·키·판매자 계정은 필요 없다. 기존 `.env`는 읽지 않는다. 설치된 `chromium`이 있으면 전용 프로필로 확장과 결과를 연다. Chrome for Testing은 실행 파일 경로를 `JUDGE_CHROME_BIN`으로 지정할 수 있다.
-3. 창이 자동으로 열리지 않으면 Chrome에서 `chrome://extensions` → 개발자 모드 → **압축해제된 확장 프로그램을 로드** → `submission/runtime/extension/`을 선택한다. 터미널의 로컬 주소에서 새 사건 로그 3개를 연다. 종료는 `Ctrl+C`(새 사건과 임시 장부도 삭제됨). 창 없이 결과만 검증하려면 `./judge.sh check`.
+1. 저장소를 내려받아 압축을 푸세요. 터미널에서 `README.md`가 있는 폴더로 이동하세요. Python 3.12 이상과 `uv` 또는 `pip`가 필요합니다. 처음 패키지를 설치할 때는 인터넷에 연결하세요.
+2. `./judge.sh`를 실행하세요. 앱은 세 상품을 각각 새 검사로 처리한 뒤 결과를 볼 주소를 출력합니다. GPU나 키, 판매자 계정은 필요 없습니다. 앱은 기존 `.env`도 읽지 않습니다. `chromium`이 설치돼 있으면 전용 프로필에서 확장과 결과를 엽니다. Chrome for Testing을 쓴다면 `JUDGE_CHROME_BIN`에 실행 파일 경로를 지정할 수 있습니다.
+3. 창이 자동으로 열리지 않으면 Chrome에서 `chrome://extensions`를 여세요. “개발자 모드”를 켜고 “압축해제된 확장 프로그램을 로드”를 누른 뒤 `submission/runtime/extension/`을 선택하세요. 터미널에 나온 로컬 주소를 열면 검사 기록 3개를 볼 수 있습니다. `Ctrl+C`를 누르면 앱이 종료되고 새 검사와 임시 기록은 삭제됩니다. 창 없이 결과만 보려면 `./judge.sh check`를 실행하세요.
 
 ## 평소 쓰는 Chrome에 설치하기
 
-1. 제출 폴더를 계속 보관할 위치에 풀고, 평소 Chrome 주소창에 `chrome://extensions`를 입력한 뒤 **개발자 모드**를 켠다.
-2. **압축해제된 확장 프로그램을 로드**를 눌러 `manifest.json`이 들어 있는 `submission/runtime/extension/` 폴더를 선택한다. 퍼즐 아이콘에서 **직구레이더**를 고정한다.
-3. 서버를 켜고 상품 탭에서 확장 아이콘을 누른다. **작업 설정 → 서버**에 터미널의 로컬 주소를 넣는다. `./judge.sh`는 촬영 사례 재생용이며 새 상품·사진은 [실제 GPU 연결](submission/infra.md)로 검사한다.
+1. 확장 폴더를 계속 보관할 위치에 압축을 푸세요. 평소 쓰는 Chrome의 주소창에 `chrome://extensions`를 입력하고 “개발자 모드”를 켜세요.
+2. “압축해제된 확장 프로그램을 로드”를 누르세요. `manifest.json`이 있는 `submission/runtime/extension/` 폴더를 선택하세요. 툴바의 퍼즐 아이콘을 열고 “직구레이더”를 고정하세요.
+3. 서버를 켠 뒤 상품 탭에서 확장 아이콘을 누르세요. “작업 설정 → 서버”에 터미널이 표시한 로컬 주소를 입력하세요. `./judge.sh`는 영상 속 검사만 재생합니다. 새 상품이나 사진을 검사하려면 [실제 GPU에 연결하는 방법](submission/infra.md)을 따르세요.
 
-[영상·로그부터 보기](submission/README.md) · [실제 GPU 연결](submission/infra.md)
+[영상과 실행 기록 보기](submission/README.md) 또는 [실제 GPU 연결하기](submission/infra.md)

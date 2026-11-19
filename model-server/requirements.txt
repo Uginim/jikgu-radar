@@ -1,0 +1,11 @@
+# Mac M2 실측 환경(2026-11-19, Python 3.12)과 같은 버전. 공식 zoro_decide.py 요구: torch, transformers>=5.2, pillow
+# Linux 에서 torch==2.8.0 기본 휠은 CUDA 12.8 (NVIDIA 드라이버 570 이상 권장, 낮으면 cu126 인덱스 사용 — run.sh 참고)
+torch==2.8.0
+torchvision==0.23.0   # GravityOCR(GLM-OCR) 프로세서가 요구
+transformers==5.12.1
+tokenizers==0.22.2
+safetensors==0.8.0
+pillow==13.0.0
+numpy==2.5.5
+huggingface-hub==1.33.0
+hf-xet==1.8.0

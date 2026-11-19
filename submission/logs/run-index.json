@@ -1,0 +1,1509 @@
+{
+ "schema": "judge-records/v1",
+ "scenes": [
+  {
+   "file": "scenario-01.jsonl",
+   "source_id": "0e4b01830ad37ad60598eebd0d1948d2afa5dac791bdfb97b562e61e7393143f",
+   "case_id": "1120-041731-78b1",
+   "lines": 127,
+   "bytes": 319696,
+   "sha256": "53712148c08c51b9864327f712d6cdd112e3757449a1abb78cbfbe3dac61f365",
+   "integration_export_sha256": "4d5a9ebbfe5630a323a9e64a0da2aaceffc2902975d8f53df192d51850388b07"
+  },
+  {
+   "file": "scenario-02.jsonl",
+   "source_id": "0e4b01830ad37ad60598eebd0d1948d2afa5dac791bdfb97b562e61e7393143f",
+   "case_id": "1120-041746-070a",
+   "lines": 59,
+   "bytes": 211150,
+   "sha256": "66ed742b09068781ae34c4b890e56cff1769ebe9d1cec4d5ecc1b4ad29e0383a",
+   "integration_export_sha256": "ee1865f7a9f0065882fa0c48ca84f72d5f48e05b25993db59c0c74c9eea886cb"
+  },
+  {
+   "file": "scenario-03.jsonl",
+   "source_id": "0e4b01830ad37ad60598eebd0d1948d2afa5dac791bdfb97b562e61e7393143f",
+   "case_id": "1120-041820-dd2b",
+   "lines": 111,
+   "bytes": 215305,
+   "sha256": "50ad9dc70d127185acf241c1f7ba5ee0708e9e0f8c53f7d2acb96a3a2462df65",
+   "integration_export_sha256": "4782b772fcb61a2538919fae6d25a387d8dd14a6dee32710a519624f454856f6"
+  }
+ ],
+ "timeline": [
+  {
+   "time": "2026-11-19T19:17:14.466Z",
+   "file": "scenario-01.jsonl",
+   "line": 2
+  },
+  {
+   "time": "2026-11-19T19:17:30.478Z",
+   "file": "scenario-01.jsonl",
+   "line": 3
+  },
+  {
+   "time": "2026-11-19T19:17:31.343Z",
+   "file": "scenario-01.jsonl",
+   "line": 4
+  },
+  {
+   "time": "2026-11-19T19:17:31.382Z",
+   "file": "scenario-01.jsonl",
+   "line": 5
+  },
+  {
+   "time": "2026-11-19T19:17:31.509Z",
+   "file": "scenario-01.jsonl",
+   "line": 6
+  },
+  {
+   "time": "2026-11-20T04:17:31.552+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 7
+  },
+  {
+   "time": "2026-11-20T04:17:31.559+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 8
+  },
+  {
+   "time": "2026-11-20T04:17:31.563+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 9
+  },
+  {
+   "time": "2026-11-20T04:17:31.570+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 10
+  },
+  {
+   "time": "2026-11-19T19:17:31.614Z",
+   "file": "scenario-01.jsonl",
+   "line": 11
+  },
+  {
+   "time": "2026-11-20T04:17:32.545+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 12
+  },
+  {
+   "time": "2026-11-20T04:17:32.547+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 13
+  },
+  {
+   "time": "2026-11-19T19:17:32.578Z",
+   "file": "scenario-01.jsonl",
+   "line": 14
+  },
+  {
+   "time": "2026-11-19T19:17:33.524Z",
+   "file": "scenario-01.jsonl",
+   "line": 15
+  },
+  {
+   "time": "2026-11-19T19:17:33.525Z",
+   "file": "scenario-01.jsonl",
+   "line": 16
+  },
+  {
+   "time": "2026-11-20T04:17:33.527+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 17
+  },
+  {
+   "time": "2026-11-20T04:17:33.528+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 18
+  },
+  {
+   "time": "2026-11-20T04:17:33.530+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 19
+  },
+  {
+   "time": "2026-11-20T04:17:33.531+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 20
+  },
+  {
+   "time": "2026-11-20T04:17:33.531+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 21
+  },
+  {
+   "time": "2026-11-20T04:17:33.535+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 22
+  },
+  {
+   "time": "2026-11-20T04:17:33.535+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 23
+  },
+  {
+   "time": "2026-11-20T04:17:33.536+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 24
+  },
+  {
+   "time": "2026-11-20T04:17:33.560+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 25
+  },
+  {
+   "time": "2026-11-19T19:17:33.562Z",
+   "file": "scenario-01.jsonl",
+   "line": 26
+  },
+  {
+   "time": "2026-11-19T19:17:33.934Z",
+   "file": "scenario-01.jsonl",
+   "line": 27
+  },
+  {
+   "time": "2026-11-19T19:17:33.935Z",
+   "file": "scenario-01.jsonl",
+   "line": 28
+  },
+  {
+   "time": "2026-11-20T04:17:33.936+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 29
+  },
+  {
+   "time": "2026-11-20T04:17:33.938+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 30
+  },
+  {
+   "time": "2026-11-20T04:17:33.939+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 31
+  },
+  {
+   "time": "2026-11-20T04:17:33.939+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 32
+  },
+  {
+   "time": "2026-11-20T04:17:33.944+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 33
+  },
+  {
+   "time": "2026-11-20T04:17:33.944+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 34
+  },
+  {
+   "time": "2026-11-20T04:17:34.331+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 35
+  },
+  {
+   "time": "2026-11-20T04:17:34.331+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 36
+  },
+  {
+   "time": "2026-11-20T04:17:34.597+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 37
+  },
+  {
+   "time": "2026-11-20T04:17:34.598+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 38
+  },
+  {
+   "time": "2026-11-20T04:17:34.639+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 39
+  },
+  {
+   "time": "2026-11-20T04:17:34.640+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 40
+  },
+  {
+   "time": "2026-11-20T04:17:34.787+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 41
+  },
+  {
+   "time": "2026-11-20T04:17:35.195+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 42
+  },
+  {
+   "time": "2026-11-20T04:17:35.196+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 43
+  },
+  {
+   "time": "2026-11-20T04:17:35.363+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 44
+  },
+  {
+   "time": "2026-11-20T04:17:35.432+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 45
+  },
+  {
+   "time": "2026-11-20T04:17:35.435+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 46
+  },
+  {
+   "time": "2026-11-20T04:17:35.610+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 47
+  },
+  {
+   "time": "2026-11-20T04:17:35.746+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 48
+  },
+  {
+   "time": "2026-11-20T04:17:35.746+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 49
+  },
+  {
+   "time": "2026-11-20T04:17:35.786+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 50
+  },
+  {
+   "time": "2026-11-20T04:17:35.788+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 51
+  },
+  {
+   "time": "2026-11-20T04:17:35.828+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 52
+  },
+  {
+   "time": "2026-11-20T04:17:35.829+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 53
+  },
+  {
+   "time": "2026-11-20T04:17:35.988+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 54
+  },
+  {
+   "time": "2026-11-20T04:17:36.143+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 55
+  },
+  {
+   "time": "2026-11-20T04:17:36.284+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 56
+  },
+  {
+   "time": "2026-11-20T04:17:36.491+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 57
+  },
+  {
+   "time": "2026-11-20T04:17:36.492+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 58
+  },
+  {
+   "time": "2026-11-20T04:17:36.955+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 59
+  },
+  {
+   "time": "2026-11-20T04:17:36.958+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 60
+  },
+  {
+   "time": "2026-11-20T04:17:37.245+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 61
+  },
+  {
+   "time": "2026-11-20T04:17:37.246+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 62
+  },
+  {
+   "time": "2026-11-20T04:17:37.412+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 63
+  },
+  {
+   "time": "2026-11-20T04:17:37.413+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 64
+  },
+  {
+   "time": "2026-11-20T04:17:37.557+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 65
+  },
+  {
+   "time": "2026-11-20T04:17:37.557+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 66
+  },
+  {
+   "time": "2026-11-20T04:17:37.688+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 67
+  },
+  {
+   "time": "2026-11-20T04:17:37.690+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 68
+  },
+  {
+   "time": "2026-11-20T04:17:37.814+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 69
+  },
+  {
+   "time": "2026-11-20T04:17:37.815+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 70
+  },
+  {
+   "time": "2026-11-20T04:17:37.820+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 71
+  },
+  {
+   "time": "2026-11-19T19:17:37.835Z",
+   "file": "scenario-01.jsonl",
+   "line": 72
+  },
+  {
+   "time": "2026-11-19T19:17:38.181Z",
+   "file": "scenario-01.jsonl",
+   "line": 73
+  },
+  {
+   "time": "2026-11-19T19:17:38.221Z",
+   "file": "scenario-01.jsonl",
+   "line": 74
+  },
+  {
+   "time": "2026-11-20T04:17:38.240+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 75
+  },
+  {
+   "time": "2026-11-20T04:17:38.246+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 76
+  },
+  {
+   "time": "2026-11-20T04:17:38.460+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 77
+  },
+  {
+   "time": "2026-11-20T04:17:38.461+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 78
+  },
+  {
+   "time": "2026-11-20T04:17:38.461+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 79
+  },
+  {
+   "time": "2026-11-19T19:17:38.462Z",
+   "file": "scenario-01.jsonl",
+   "line": 80
+  },
+  {
+   "time": "2026-11-19T19:17:38.733Z",
+   "file": "scenario-01.jsonl",
+   "line": 81
+  },
+  {
+   "time": "2026-11-20T04:17:38.734+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 82
+  },
+  {
+   "time": "2026-11-19T19:17:38.734Z",
+   "file": "scenario-01.jsonl",
+   "line": 83
+  },
+  {
+   "time": "2026-11-20T04:17:38.735+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 84
+  },
+  {
+   "time": "2026-11-20T04:17:38.826+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 85
+  },
+  {
+   "time": "2026-11-20T04:17:38.827+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 86
+  },
+  {
+   "time": "2026-11-20T04:17:38.827+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 87
+  },
+  {
+   "time": "2026-11-19T19:17:38.828Z",
+   "file": "scenario-01.jsonl",
+   "line": 88
+  },
+  {
+   "time": "2026-11-19T19:17:39.114Z",
+   "file": "scenario-01.jsonl",
+   "line": 89
+  },
+  {
+   "time": "2026-11-19T19:17:39.114Z",
+   "file": "scenario-01.jsonl",
+   "line": 90
+  },
+  {
+   "time": "2026-11-20T04:17:39.116+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 91
+  },
+  {
+   "time": "2026-11-20T04:17:39.117+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 92
+  },
+  {
+   "time": "2026-11-20T04:17:39.210+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 93
+  },
+  {
+   "time": "2026-11-20T04:17:39.210+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 94
+  },
+  {
+   "time": "2026-11-20T04:17:39.210+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 95
+  },
+  {
+   "time": "2026-11-19T19:17:39.211Z",
+   "file": "scenario-01.jsonl",
+   "line": 96
+  },
+  {
+   "time": "2026-11-19T19:17:39.489Z",
+   "file": "scenario-01.jsonl",
+   "line": 97
+  },
+  {
+   "time": "2026-11-19T19:17:39.489Z",
+   "file": "scenario-01.jsonl",
+   "line": 98
+  },
+  {
+   "time": "2026-11-20T04:17:39.490+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 99
+  },
+  {
+   "time": "2026-11-20T04:17:39.490+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 100
+  },
+  {
+   "time": "2026-11-20T04:17:39.654+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 101
+  },
+  {
+   "time": "2026-11-20T04:17:39.655+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 102
+  },
+  {
+   "time": "2026-11-20T04:17:39.655+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 103
+  },
+  {
+   "time": "2026-11-19T19:17:39.656Z",
+   "file": "scenario-01.jsonl",
+   "line": 104
+  },
+  {
+   "time": "2026-11-19T19:17:40.015Z",
+   "file": "scenario-01.jsonl",
+   "line": 105
+  },
+  {
+   "time": "2026-11-19T19:17:40.023Z",
+   "file": "scenario-01.jsonl",
+   "line": 106
+  },
+  {
+   "time": "2026-11-20T04:17:40.031+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 107
+  },
+  {
+   "time": "2026-11-20T04:17:40.037+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 108
+  },
+  {
+   "time": "2026-11-20T04:17:40.454+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 109
+  },
+  {
+   "time": "2026-11-20T04:17:40.455+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 110
+  },
+  {
+   "time": "2026-11-20T04:17:40.455+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 111
+  },
+  {
+   "time": "2026-11-19T19:17:40.456Z",
+   "file": "scenario-01.jsonl",
+   "line": 112
+  },
+  {
+   "time": "2026-11-19T19:17:40.787Z",
+   "file": "scenario-01.jsonl",
+   "line": 113
+  },
+  {
+   "time": "2026-11-19T19:17:40.787Z",
+   "file": "scenario-01.jsonl",
+   "line": 114
+  },
+  {
+   "time": "2026-11-20T04:17:40.789+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 115
+  },
+  {
+   "time": "2026-11-20T04:17:40.791+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 116
+  },
+  {
+   "time": "2026-11-20T04:17:40.964+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 117
+  },
+  {
+   "time": "2026-11-20T04:17:40.965+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 118
+  },
+  {
+   "time": "2026-11-20T04:17:40.965+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 119
+  },
+  {
+   "time": "2026-11-20T04:17:40.970+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 120
+  },
+  {
+   "time": "2026-11-20T04:17:40.971+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 121
+  },
+  {
+   "time": "2026-11-20T04:17:40.971+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 122
+  },
+  {
+   "time": "2026-11-20T04:17:40.973+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 123
+  },
+  {
+   "time": "2026-11-20T04:17:40.974+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 124
+  },
+  {
+   "time": "2026-11-20T04:17:40.975+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 125
+  },
+  {
+   "time": "2026-11-20T04:17:40.976+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 126
+  },
+  {
+   "time": "2026-11-20T04:17:40.977+09:00",
+   "file": "scenario-01.jsonl",
+   "line": 127
+  },
+  {
+   "time": "2026-11-19T19:17:45.895Z",
+   "file": "scenario-02.jsonl",
+   "line": 2
+  },
+  {
+   "time": "2026-11-19T19:17:45.961Z",
+   "file": "scenario-02.jsonl",
+   "line": 3
+  },
+  {
+   "time": "2026-11-19T19:17:46.342Z",
+   "file": "scenario-02.jsonl",
+   "line": 4
+  },
+  {
+   "time": "2026-11-19T19:17:46.491Z",
+   "file": "scenario-02.jsonl",
+   "line": 5
+  },
+  {
+   "time": "2026-11-20T04:17:46.880+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 6
+  },
+  {
+   "time": "2026-11-19T19:17:47.020Z",
+   "file": "scenario-02.jsonl",
+   "line": 7
+  },
+  {
+   "time": "2026-11-19T19:17:47.047Z",
+   "file": "scenario-02.jsonl",
+   "line": 8
+  },
+  {
+   "time": "2026-11-19T19:17:47.060Z",
+   "file": "scenario-02.jsonl",
+   "line": 9
+  },
+  {
+   "time": "2026-11-19T19:17:49.547Z",
+   "file": "scenario-02.jsonl",
+   "line": 10
+  },
+  {
+   "time": "2026-11-19T19:17:49.978Z",
+   "file": "scenario-02.jsonl",
+   "line": 11
+  },
+  {
+   "time": "2026-11-19T19:17:49.979Z",
+   "file": "scenario-02.jsonl",
+   "line": 12
+  },
+  {
+   "time": "2026-11-20T04:17:50.043+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 13
+  },
+  {
+   "time": "2026-11-19T19:17:50.468Z",
+   "file": "scenario-02.jsonl",
+   "line": 14
+  },
+  {
+   "time": "2026-11-19T19:18:08.929Z",
+   "file": "scenario-02.jsonl",
+   "line": 15
+  },
+  {
+   "time": "2026-11-19T19:18:08.935Z",
+   "file": "scenario-02.jsonl",
+   "line": 16
+  },
+  {
+   "time": "2026-11-20T04:18:09.263+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 17
+  },
+  {
+   "time": "2026-11-20T04:18:09.266+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 18
+  },
+  {
+   "time": "2026-11-20T04:18:09.270+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 19
+  },
+  {
+   "time": "2026-11-20T04:18:10.030+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 20
+  },
+  {
+   "time": "2026-11-20T04:18:10.035+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 21
+  },
+  {
+   "time": "2026-11-19T19:18:10.078Z",
+   "file": "scenario-02.jsonl",
+   "line": 22
+  },
+  {
+   "time": "2026-11-19T19:18:11.055Z",
+   "file": "scenario-02.jsonl",
+   "line": 23
+  },
+  {
+   "time": "2026-11-19T19:18:11.059Z",
+   "file": "scenario-02.jsonl",
+   "line": 24
+  },
+  {
+   "time": "2026-11-20T04:18:11.144+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 25
+  },
+  {
+   "time": "2026-11-20T04:18:11.150+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 26
+  },
+  {
+   "time": "2026-11-20T04:18:11.155+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 27
+  },
+  {
+   "time": "2026-11-20T04:18:11.156+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 28
+  },
+  {
+   "time": "2026-11-20T04:18:11.158+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 29
+  },
+  {
+   "time": "2026-11-20T04:18:11.166+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 30
+  },
+  {
+   "time": "2026-11-20T04:18:11.177+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 31
+  },
+  {
+   "time": "2026-11-20T04:18:11.180+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 32
+  },
+  {
+   "time": "2026-11-20T04:18:11.181+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 33
+  },
+  {
+   "time": "2026-11-20T04:18:11.186+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 34
+  },
+  {
+   "time": "2026-11-19T19:18:11.953Z",
+   "file": "scenario-02.jsonl",
+   "line": 35
+  },
+  {
+   "time": "2026-11-19T19:18:11.978Z",
+   "file": "scenario-02.jsonl",
+   "line": 36
+  },
+  {
+   "time": "2026-11-20T04:18:12.000+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 37
+  },
+  {
+   "time": "2026-11-19T19:18:12.000Z",
+   "file": "scenario-02.jsonl",
+   "line": 38
+  },
+  {
+   "time": "2026-11-20T04:18:12.003+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 39
+  },
+  {
+   "time": "2026-11-20T04:18:12.003+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 40
+  },
+  {
+   "time": "2026-11-20T04:18:12.004+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 41
+  },
+  {
+   "time": "2026-11-20T04:18:12.007+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 42
+  },
+  {
+   "time": "2026-11-20T04:18:12.009+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 43
+  },
+  {
+   "time": "2026-11-20T04:18:12.009+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 44
+  },
+  {
+   "time": "2026-11-19T19:18:12.010Z",
+   "file": "scenario-02.jsonl",
+   "line": 45
+  },
+  {
+   "time": "2026-11-20T04:18:12.840+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 46
+  },
+  {
+   "time": "2026-11-20T04:18:12.842+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 47
+  },
+  {
+   "time": "2026-11-20T04:18:12.896+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 48
+  },
+  {
+   "time": "2026-11-20T04:18:12.904+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 49
+  },
+  {
+   "time": "2026-11-20T04:18:13.007+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 50
+  },
+  {
+   "time": "2026-11-20T04:18:13.009+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 51
+  },
+  {
+   "time": "2026-11-20T04:18:13.469+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 52
+  },
+  {
+   "time": "2026-11-20T04:18:13.477+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 53
+  },
+  {
+   "time": "2026-11-20T04:18:15.356+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 54
+  },
+  {
+   "time": "2026-11-20T04:18:15.373+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 55
+  },
+  {
+   "time": "2026-11-20T04:18:15.377+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 56
+  },
+  {
+   "time": "2026-11-20T04:18:15.379+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 57
+  },
+  {
+   "time": "2026-11-20T04:18:15.385+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 58
+  },
+  {
+   "time": "2026-11-20T04:18:15.386+09:00",
+   "file": "scenario-02.jsonl",
+   "line": 59
+  },
+  {
+   "time": "2026-11-19T19:18:19.853Z",
+   "file": "scenario-03.jsonl",
+   "line": 2
+  },
+  {
+   "time": "2026-11-19T19:18:19.893Z",
+   "file": "scenario-03.jsonl",
+   "line": 3
+  },
+  {
+   "time": "2026-11-19T19:18:20.029Z",
+   "file": "scenario-03.jsonl",
+   "line": 4
+  },
+  {
+   "time": "2026-11-19T19:18:20.276Z",
+   "file": "scenario-03.jsonl",
+   "line": 5
+  },
+  {
+   "time": "2026-11-20T04:18:20.378+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 6
+  },
+  {
+   "time": "2026-11-19T19:18:20.380Z",
+   "file": "scenario-03.jsonl",
+   "line": 7
+  },
+  {
+   "time": "2026-11-19T19:18:20.407Z",
+   "file": "scenario-03.jsonl",
+   "line": 8
+  },
+  {
+   "time": "2026-11-19T19:18:20.452Z",
+   "file": "scenario-03.jsonl",
+   "line": 9
+  },
+  {
+   "time": "2026-11-19T19:18:20.543Z",
+   "file": "scenario-03.jsonl",
+   "line": 10
+  },
+  {
+   "time": "2026-11-19T19:18:20.866Z",
+   "file": "scenario-03.jsonl",
+   "line": 11
+  },
+  {
+   "time": "2026-11-19T19:18:20.866Z",
+   "file": "scenario-03.jsonl",
+   "line": 12
+  },
+  {
+   "time": "2026-11-20T04:18:20.869+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 13
+  },
+  {
+   "time": "2026-11-19T19:18:20.884Z",
+   "file": "scenario-03.jsonl",
+   "line": 14
+  },
+  {
+   "time": "2026-11-19T19:18:22.852Z",
+   "file": "scenario-03.jsonl",
+   "line": 15
+  },
+  {
+   "time": "2026-11-19T19:18:22.852Z",
+   "file": "scenario-03.jsonl",
+   "line": 16
+  },
+  {
+   "time": "2026-11-20T04:18:22.921+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 17
+  },
+  {
+   "time": "2026-11-19T19:18:23.550Z",
+   "file": "scenario-03.jsonl",
+   "line": 18
+  },
+  {
+   "time": "2026-11-19T19:18:25.562Z",
+   "file": "scenario-03.jsonl",
+   "line": 19
+  },
+  {
+   "time": "2026-11-19T19:18:25.572Z",
+   "file": "scenario-03.jsonl",
+   "line": 20
+  },
+  {
+   "time": "2026-11-20T04:18:25.609+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 21
+  },
+  {
+   "time": "2026-11-19T19:18:25.729Z",
+   "file": "scenario-03.jsonl",
+   "line": 22
+  },
+  {
+   "time": "2026-11-19T19:18:27.677Z",
+   "file": "scenario-03.jsonl",
+   "line": 23
+  },
+  {
+   "time": "2026-11-19T19:18:27.680Z",
+   "file": "scenario-03.jsonl",
+   "line": 24
+  },
+  {
+   "time": "2026-11-20T04:18:27.705+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 25
+  },
+  {
+   "time": "2026-11-20T04:18:27.719+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 26
+  },
+  {
+   "time": "2026-11-20T04:18:27.724+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 27
+  },
+  {
+   "time": "2026-11-20T04:18:29.578+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 28
+  },
+  {
+   "time": "2026-11-20T04:18:29.585+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 29
+  },
+  {
+   "time": "2026-11-19T19:18:29.609Z",
+   "file": "scenario-03.jsonl",
+   "line": 30
+  },
+  {
+   "time": "2026-11-19T19:18:30.038Z",
+   "file": "scenario-03.jsonl",
+   "line": 31
+  },
+  {
+   "time": "2026-11-19T19:18:30.039Z",
+   "file": "scenario-03.jsonl",
+   "line": 32
+  },
+  {
+   "time": "2026-11-20T04:18:30.068+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 33
+  },
+  {
+   "time": "2026-11-20T04:18:30.082+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 34
+  },
+  {
+   "time": "2026-11-20T04:18:30.086+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 35
+  },
+  {
+   "time": "2026-11-20T04:18:30.087+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 36
+  },
+  {
+   "time": "2026-11-20T04:18:30.087+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 37
+  },
+  {
+   "time": "2026-11-20T04:18:30.092+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 38
+  },
+  {
+   "time": "2026-11-20T04:18:30.102+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 39
+  },
+  {
+   "time": "2026-11-20T04:18:30.103+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 40
+  },
+  {
+   "time": "2026-11-20T04:18:30.104+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 41
+  },
+  {
+   "time": "2026-11-20T04:18:30.105+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 42
+  },
+  {
+   "time": "2026-11-19T19:18:30.644Z",
+   "file": "scenario-03.jsonl",
+   "line": 43
+  },
+  {
+   "time": "2026-11-20T04:18:30.918+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 44
+  },
+  {
+   "time": "2026-11-19T19:18:30.919Z",
+   "file": "scenario-03.jsonl",
+   "line": 45
+  },
+  {
+   "time": "2026-11-20T04:18:30.920+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 46
+  },
+  {
+   "time": "2026-11-20T04:18:30.920+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 47
+  },
+  {
+   "time": "2026-11-20T04:18:30.921+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 48
+  },
+  {
+   "time": "2026-11-20T04:18:30.921+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 49
+  },
+  {
+   "time": "2026-11-20T04:18:30.922+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 50
+  },
+  {
+   "time": "2026-11-20T04:18:30.923+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 51
+  },
+  {
+   "time": "2026-11-20T04:18:30.924+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 52
+  },
+  {
+   "time": "2026-11-20T04:18:30.925+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 53
+  },
+  {
+   "time": "2026-11-20T04:18:30.925+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 54
+  },
+  {
+   "time": "2026-11-20T04:18:30.927+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 55
+  },
+  {
+   "time": "2026-11-20T04:18:30.928+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 56
+  },
+  {
+   "time": "2026-11-19T19:18:31.123Z",
+   "file": "scenario-03.jsonl",
+   "line": 57
+  },
+  {
+   "time": "2026-11-19T19:18:31.159Z",
+   "file": "scenario-03.jsonl",
+   "line": 58
+  },
+  {
+   "time": "2026-11-19T19:18:31.487Z",
+   "file": "scenario-03.jsonl",
+   "line": 59
+  },
+  {
+   "time": "2026-11-19T19:18:31.763Z",
+   "file": "scenario-03.jsonl",
+   "line": 60
+  },
+  {
+   "time": "2026-11-19T19:18:31.770Z",
+   "file": "scenario-03.jsonl",
+   "line": 61
+  },
+  {
+   "time": "2026-11-19T19:18:33.940Z",
+   "file": "scenario-03.jsonl",
+   "line": 62
+  },
+  {
+   "time": "2026-11-19T19:18:33.940Z",
+   "file": "scenario-03.jsonl",
+   "line": 63
+  },
+  {
+   "time": "2026-11-20T04:18:33.953+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 64
+  },
+  {
+   "time": "2026-11-19T19:18:34.060Z",
+   "file": "scenario-03.jsonl",
+   "line": 65
+  },
+  {
+   "time": "2026-11-19T19:18:34.117Z",
+   "file": "scenario-03.jsonl",
+   "line": 66
+  },
+  {
+   "time": "2026-11-19T19:18:37.202Z",
+   "file": "scenario-03.jsonl",
+   "line": 67
+  },
+  {
+   "time": "2026-11-19T19:18:37.261Z",
+   "file": "scenario-03.jsonl",
+   "line": 68
+  },
+  {
+   "time": "2026-11-19T19:18:37.276Z",
+   "file": "scenario-03.jsonl",
+   "line": 69
+  },
+  {
+   "time": "2026-11-19T19:18:37.277Z",
+   "file": "scenario-03.jsonl",
+   "line": 70
+  },
+  {
+   "time": "2026-11-19T19:18:37.460Z",
+   "file": "scenario-03.jsonl",
+   "line": 71
+  },
+  {
+   "time": "2026-11-19T19:18:37.462Z",
+   "file": "scenario-03.jsonl",
+   "line": 72
+  },
+  {
+   "time": "2026-11-20T04:18:37.463+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 73
+  },
+  {
+   "time": "2026-11-19T19:18:37.610Z",
+   "file": "scenario-03.jsonl",
+   "line": 74
+  },
+  {
+   "time": "2026-11-19T19:18:37.630Z",
+   "file": "scenario-03.jsonl",
+   "line": 75
+  },
+  {
+   "time": "2026-11-19T19:18:37.922Z",
+   "file": "scenario-03.jsonl",
+   "line": 76
+  },
+  {
+   "time": "2026-11-19T19:18:37.923Z",
+   "file": "scenario-03.jsonl",
+   "line": 77
+  },
+  {
+   "time": "2026-11-20T04:18:37.925+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 78
+  },
+  {
+   "time": "2026-11-19T19:18:37.928Z",
+   "file": "scenario-03.jsonl",
+   "line": 79
+  },
+  {
+   "time": "2026-11-19T19:18:41.533Z",
+   "file": "scenario-03.jsonl",
+   "line": 80
+  },
+  {
+   "time": "2026-11-19T19:18:41.542Z",
+   "file": "scenario-03.jsonl",
+   "line": 81
+  },
+  {
+   "time": "2026-11-20T04:18:41.550+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 82
+  },
+  {
+   "time": "2026-11-19T19:18:41.641Z",
+   "file": "scenario-03.jsonl",
+   "line": 83
+  },
+  {
+   "time": "2026-11-19T19:18:45.373Z",
+   "file": "scenario-03.jsonl",
+   "line": 84
+  },
+  {
+   "time": "2026-11-19T19:18:45.378Z",
+   "file": "scenario-03.jsonl",
+   "line": 85
+  },
+  {
+   "time": "2026-11-20T04:18:45.392+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 86
+  },
+  {
+   "time": "2026-11-19T19:18:45.542Z",
+   "file": "scenario-03.jsonl",
+   "line": 87
+  },
+  {
+   "time": "2026-11-19T19:18:49.157Z",
+   "file": "scenario-03.jsonl",
+   "line": 88
+  },
+  {
+   "time": "2026-11-19T19:18:49.319Z",
+   "file": "scenario-03.jsonl",
+   "line": 89
+  },
+  {
+   "time": "2026-11-20T04:18:49.359+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 90
+  },
+  {
+   "time": "2026-11-20T04:18:49.369+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 91
+  },
+  {
+   "time": "2026-11-20T04:18:54.992+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 92
+  },
+  {
+   "time": "2026-11-20T04:18:58.116+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 93
+  },
+  {
+   "time": "2026-11-19T19:18:58.400Z",
+   "file": "scenario-03.jsonl",
+   "line": 94
+  },
+  {
+   "time": "2026-11-19T19:18:58.759Z",
+   "file": "scenario-03.jsonl",
+   "line": 95
+  },
+  {
+   "time": "2026-11-19T19:18:58.759Z",
+   "file": "scenario-03.jsonl",
+   "line": 96
+  },
+  {
+   "time": "2026-11-20T04:18:58.772+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 97
+  },
+  {
+   "time": "2026-11-20T04:18:58.776+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 98
+  },
+  {
+   "time": "2026-11-20T04:18:58.927+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 99
+  },
+  {
+   "time": "2026-11-20T04:18:58.928+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 100
+  },
+  {
+   "time": "2026-11-20T04:18:58.929+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 101
+  },
+  {
+   "time": "2026-11-19T19:18:59.838Z",
+   "file": "scenario-03.jsonl",
+   "line": 102
+  },
+  {
+   "time": "2026-11-19T19:19:00.164Z",
+   "file": "scenario-03.jsonl",
+   "line": 103
+  },
+  {
+   "time": "2026-11-19T19:19:00.165Z",
+   "file": "scenario-03.jsonl",
+   "line": 104
+  },
+  {
+   "time": "2026-11-20T04:19:00.170+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 105
+  },
+  {
+   "time": "2026-11-20T04:19:00.171+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 106
+  },
+  {
+   "time": "2026-11-20T04:19:00.172+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 107
+  },
+  {
+   "time": "2026-11-20T04:19:00.172+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 108
+  },
+  {
+   "time": "2026-11-20T04:19:00.175+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 109
+  },
+  {
+   "time": "2026-11-20T04:19:00.176+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 110
+  },
+  {
+   "time": "2026-11-20T04:19:00.181+09:00",
+   "file": "scenario-03.jsonl",
+   "line": 111
+  }
+ ],
+ "combined": {
+  "file": "all-events.jsonl.gz",
+  "events": 294,
+  "uncompressed_sha256": "83202dba24c29306ea7ff0afbeef66dae575fe6d8d6e28979da079a0491ebc46"
+ }
+}

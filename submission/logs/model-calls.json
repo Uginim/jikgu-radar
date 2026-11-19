@@ -1,0 +1,217 @@
+{
+  "gpu_lane": "C",
+  "hardware": "L40S (infrastructure-assigned)",
+  "remote_model": "Zoro-1",
+  "ocr_engine": "gravityocr-ko",
+  "boundary": "Counts are physical observer requests including orientation, not the initial engine decision_stats counter; tokens/cost unavailable, not zero",
+  "cases": [
+    {
+      "scenario": "scenario-01",
+      "case_id": "1120-041731-78b1",
+      "started_at": "2026-11-19T19:17:31.342Z",
+      "ended_at": "2026-11-19T19:17:44.117Z",
+      "actual_http_requests": 8,
+      "endpoint_counts": {
+        "/v1/systemone": 8
+      },
+      "statuses": [
+        {
+          "call": 1,
+          "status": 200,
+          "request_id": "a2226bf0545b"
+        },
+        {
+          "call": 2,
+          "status": 200,
+          "request_id": "06964540fda6"
+        },
+        {
+          "call": 3,
+          "status": 200,
+          "request_id": "16cab9d3adec"
+        },
+        {
+          "call": 4,
+          "status": 200,
+          "request_id": "5ce2752c1841"
+        },
+        {
+          "call": 5,
+          "status": 200,
+          "request_id": "9b56af281df7"
+        },
+        {
+          "call": 6,
+          "status": 200,
+          "request_id": "9a70503727ec"
+        },
+        {
+          "call": 7,
+          "status": 200,
+          "request_id": "6463f561d9c1"
+        },
+        {
+          "call": 8,
+          "status": 200,
+          "request_id": "c27db0a393ea"
+        }
+      ],
+      "engine_zoro_call_events": 8,
+      "scripted_unknown": 0,
+      "real_human_contacts": 0,
+      "token_or_monetary_estimate": null,
+      "scope_complete": true,
+      "followup_added": []
+    },
+    {
+      "scenario": "scenario-02",
+      "case_id": "1120-041746-070a",
+      "started_at": "2026-11-19T19:17:45.894Z",
+      "ended_at": "2026-11-19T19:18:17.967Z",
+      "actual_http_requests": 3,
+      "endpoint_counts": {
+        "/v1/systemone": 2,
+        "/v1/ocr": 1
+      },
+      "statuses": [
+        {
+          "call": 9,
+          "status": 200,
+          "request_id": "e5953ece82bf"
+        },
+        {
+          "call": 10,
+          "status": 200,
+          "request_id": "05b699131f4a"
+        },
+        {
+          "call": 11,
+          "status": 200,
+          "request_id": "69a57f8dbed3"
+        }
+      ],
+      "engine_zoro_call_events": 1,
+      "scripted_unknown": 1,
+      "real_human_contacts": 0,
+      "token_or_monetary_estimate": null,
+      "scope_complete": false,
+      "followup_added": []
+    },
+    {
+      "scenario": "scenario-03",
+      "case_id": "1120-041820-dd2b",
+      "started_at": "2026-11-19T19:18:19.852Z",
+      "ended_at": "2026-11-19T19:19:03.320Z",
+      "actual_http_requests": 12,
+      "endpoint_counts": {
+        "/v1/systemone": 5,
+        "/v1/ocr": 6,
+        "/v1/generate": 1
+      },
+      "statuses": [
+        {
+          "call": 12,
+          "status": 200,
+          "request_id": "77d27aa7ff37"
+        },
+        {
+          "call": 13,
+          "status": 200,
+          "request_id": "1023c9c77ca0"
+        },
+        {
+          "call": 14,
+          "status": 200,
+          "request_id": "98cb496b4bc5"
+        },
+        {
+          "call": 15,
+          "status": 200,
+          "request_id": "7662abdd3273"
+        },
+        {
+          "call": 16,
+          "status": 200,
+          "request_id": "3d8514f33828"
+        },
+        {
+          "call": 17,
+          "status": 200,
+          "request_id": "a135b30c11b5"
+        },
+        {
+          "call": 18,
+          "status": 200,
+          "request_id": "ef679addbf87"
+        },
+        {
+          "call": 19,
+          "status": 200,
+          "request_id": "a595ad4214e5"
+        },
+        {
+          "call": 20,
+          "status": 200,
+          "request_id": "585a70738214"
+        },
+        {
+          "call": 21,
+          "status": 200,
+          "request_id": "b387d7a022ad"
+        },
+        {
+          "call": 22,
+          "status": 200,
+          "request_id": "b485568f289d"
+        },
+        {
+          "call": 23,
+          "status": 200,
+          "request_id": "b2a3fae4f149"
+        }
+      ],
+      "engine_zoro_call_events": 3,
+      "scripted_unknown": 1,
+      "real_human_contacts": 0,
+      "token_or_monetary_estimate": null,
+      "scope_complete": false,
+      "followup_added": [
+        "Iron amino acid chelate (iron 8 mg)",
+        "Ascorbic acid (vitamin C)"
+      ]
+    },
+    {
+      "scenario": "auxiliary-goldc",
+      "case_id": "1120-041905-925a",
+      "started_at": "2026-11-19T19:19:05.469Z",
+      "ended_at": "2026-11-19T19:19:11.365Z",
+      "actual_http_requests": 3,
+      "endpoint_counts": {
+        "/v1/systemone": 3
+      },
+      "statuses": [
+        {
+          "call": 24,
+          "status": 200,
+          "request_id": "9cb5ae2f2566"
+        },
+        {
+          "call": 25,
+          "status": 200,
+          "request_id": "63a15b2782f9"
+        },
+        {
+          "call": 26,
+          "status": 200,
+          "request_id": "e5bf7db84eee"
+        }
+      ],
+      "engine_zoro_call_events": 3,
+      "scripted_unknown": 0,
+      "real_human_contacts": 0,
+      "token_or_monetary_estimate": null,
+      "scope_complete": true,
+      "followup_added": []
+    }
+  ]
+}

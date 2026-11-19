@@ -1,0 +1,25 @@
+{
+  "previous_run": "integrated-0430-25",
+  "submission_run": "integrated-0505-25",
+  "products_compared": 25,
+  "fields_compared": [
+    "verdict",
+    "scope_complete",
+    "actual_registry_ids",
+    "expected_registry_hit",
+    "complete_correct_goal",
+    "all_items_resolved_goal"
+  ],
+  "product_differences": [],
+  "count_differences": {},
+  "label_acquisition_semantic_differences": [],
+  "native_seconds": {
+    "0430": 390.179,
+    "0450": 530.9612,
+    "0505": 483.5287
+  },
+  "limits": [
+    "These historical fixed inputs do not verify live retailer access, followup-photo UI, or Korean ingredient-specific conversation.",
+    "The 0430 film remains a different observation, not relabeled as a 0505 recording."
+  ]
+}

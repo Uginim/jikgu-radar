@@ -1,0 +1,283 @@
+{
+  "B0739KKHWL": {
+    "source": "Recorded real OCR; replay only in regression",
+    "engine": "gravityocr-ko",
+    "request_id": "b2cfbf89240c",
+    "lines": [
+      {
+        "text": "Supplement Facts",
+        "conf": 0.996
+      },
+      {
+        "text": "Serving Size: 2 Soft Gels",
+        "conf": 0.999
+      },
+      {
+        "text": "Servings Per Container: 45",
+        "conf": 1
+      },
+      {
+        "text": "Amount Per Serving % Daily Value**1",
+        "conf": 0.891
+      },
+      {
+        "text": "Calories 20",
+        "conf": 0.928
+      },
+      {
+        "text": "Total Fat 2 g 3%",
+        "conf": 0.997
+      },
+      {
+        "text": "Total Omega-3s® 1280 mg ��",
+        "conf": 0.952
+      },
+      {
+        "text": "EPA (Eicosapentaenoic Acid) 650 mg ��",
+        "conf": 1
+      },
+      {
+        "text": "DHA (Docosahexaenoic Acid) 450 mg ��",
+        "conf": 0.999
+      },
+      {
+        "text": "**Percent Daily Values are based on a 2,000 calorie diet.",
+        "conf": 0.999
+      },
+      {
+        "text": "1 Daily Value (DV) for adults.",
+        "conf": 0.997
+      },
+      {
+        "text": "�� Daily Value not established.",
+        "conf": 0.993
+      },
+      {
+        "text": "�� Includes EPA, DHA, and Other Omega-3s in triglyceride form (rTG).",
+        "conf": 0.994
+      },
+      {
+        "text": "Less than 5 mg of Cholesterol per serving (<1% Daily Value).",
+        "conf": 0.997
+      },
+      {
+        "text": "Ingredients: purified deep sea fish oil (from anchovies, sardines, mackerel, and herring), soft gel capsule (gelatin, glycerin, water, natural flavor), natural flavor, RRR-alpha tocopherol (antioxidant), rosemary extract (a natural preservative).",
+        "conf": 0.988
+      },
+      {
+        "text": "No gluten, milk derivatives, or synthetic dyes.",
+        "conf": 0.961
+      },
+      {
+        "text": "Fish oil processed in Norway | Manufactured in the U.S. by: Nordic Naturals Mfg, Inc.",
+        "conf": 0.992
+      },
+      {
+        "text": "111 Jennings Drive, Watsonville, CA 95076 | 800.662.2544 | nordic.com",
+        "conf": 0.997
+      },
+      {
+        "text": "Learn more at",
+        "conf": 0.991
+      },
+      {
+        "text": "nordic.com",
+        "conf": 0.992
+      },
+      {
+        "text": "X001GHYR7T",
+        "conf": 0.996
+      },
+      {
+        "text": "Nordic Naturals Ultimate Omega (90 count)",
+        "conf": 0.999
+      },
+      {
+        "text": "NEW RUS-01804",
+        "conf": 0.995
+      }
+    ]
+  },
+  "B09T81PN2R": {
+    "source": "Recorded real OCR; replay only in regression",
+    "engine": "gravityocr-ko",
+    "request_id": "76366f27cf3a",
+    "lines": [
+      {
+        "text": "Please this container",
+        "conf": 0.79
+      },
+      {
+        "text": "Supplement Facts",
+        "conf": 0.973
+      },
+      {
+        "text": "Serving Size: 1 Gummy",
+        "conf": 0.996
+      },
+      {
+        "text": "Servings Per Container: 30",
+        "conf": 1
+      },
+      {
+        "text": "Amount Per Serving % Daily Value**",
+        "conf": 0.988
+      },
+      {
+        "text": "Calories 10",
+        "conf": 0.976
+      },
+      {
+        "text": "Total Carbohydrate 2 g 1%",
+        "conf": 0.989
+      },
+      {
+        "text": "Total Sugars 2 g ��",
+        "conf": 1
+      },
+      {
+        "text": "Includes Added Sugars 2 g 4%",
+        "conf": 1
+      },
+      {
+        "text": "Vitamin D3 (as cholecalciferol) 125 mcg (5000 IU) 625%",
+        "conf": 1
+      },
+      {
+        "text": "Sodium 5 mg 0%",
+        "conf": 0.995
+      },
+      {
+        "text": "**Percent Daily Values are based on a 2,000 calorie diet.",
+        "conf": 0.993
+      },
+      {
+        "text": "1 Daily Value (DV) for adults.",
+        "conf": 0.979
+      },
+      {
+        "text": "�� Daily Value not established.",
+        "conf": 0.997
+      },
+      {
+        "text": "Other Ingredients: organic tapioca syrup, organic cane sugar,",
+        "conf": 0.985
+      },
+      {
+        "text": "purified water, pectin, natural flavor, citric acid, fruit and vegetable",
+        "conf": 0.988
+      },
+      {
+        "text": "juice (color), sunflower oil, sodium citrate, and carnauba wax.",
+        "conf": 0.989
+      },
+      {
+        "text": "No gluten, milk derivatives, wheat, soy, or synthetic dyes.",
+        "conf": 0.993
+      },
+      {
+        "text": "Made and quality tested in the U.S. using high-quality, globally",
+        "conf": 0.993
+      },
+      {
+        "text": "sourced ingredients I Distributed by: Nordic Naturals, Inc.",
+        "conf": 0.994
+      },
+      {
+        "text": "Watsonville, CA 95076 | 800.662.2544 | nordic.com",
+        "conf": 0.999
+      }
+    ]
+  },
+  "B00KYKLPS2": {
+    "source": "Recorded real OCR; replay only in regression",
+    "engine": "gravityocr-ko",
+    "request_id": "63d24fb5624d",
+    "lines": [
+      {
+        "text": "Supplement Facts",
+        "conf": 0.999
+      },
+      {
+        "text": "Serving Size 1 Tablet",
+        "conf": 0.958
+      },
+      {
+        "text": "Amount Per Serving",
+        "conf": 0.918
+      },
+      {
+        "text": "L-Citrulline 1.2 g (1,200 mg)**",
+        "conf": 0.977
+      },
+      {
+        "text": "** Daily Value not established.",
+        "conf": 0.96
+      },
+      {
+        "text": "Other ingredients: Microcrystalline Cellulose, Stearic Acid",
+        "conf": 0.985
+      },
+      {
+        "text": "(vegetable source), Vegetarian Coating [hypromellose",
+        "conf": 0.948
+      },
+      {
+        "text": "(cellulose), stearic acid (vegetable source), sunflower",
+        "conf": 0.999
+      },
+      {
+        "text": "lecithin, triethyl citrate, sunflower oil], Croscarmellose",
+        "conf": 0.999
+      },
+      {
+        "text": "Sodium and Silicon Dioxide.",
+        "conf": 1
+      },
+      {
+        "text": "Manufactured by NOW FOODS, 395 S. Glen Ellyn Rd.",
+        "conf": 1
+      },
+      {
+        "text": "Bloomingdale, IL 60108, USA nowsportsproducts.com",
+        "conf": 0.981
+      },
+      {
+        "text": "Made and quality tested in the USA with globally",
+        "conf": 0.998
+      },
+      {
+        "text": "sourced ingredients.",
+        "conf": 0.996
+      },
+      {
+        "text": "Not manufactured with wheat, gluten, soy, milk, egg,",
+        "conf": 1
+      },
+      {
+        "text": "fish, shellfish, tree nut or sesame ingredients. Produced",
+        "conf": 1
+      },
+      {
+        "text": "in a GMP facility that processes other ingredients",
+        "conf": 1
+      },
+      {
+        "text": "containing these allergens.",
+        "conf": 0.999
+      },
+      {
+        "text": "This extra strength product has more L-Citrulline",
+        "conf": 1
+      },
+      {
+        "text": "(1,200 mg per tablet) than our regular strength product",
+        "conf": 1
+      },
+      {
+        "text": "(750 mg per capsule).",
+        "conf": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[
+ {"name": "NOW DMAE — 페이지 글자·사진 없음(제품명만)", "input": {"url": "https://kr.iherb.com/pr/now-foods-dmae-250-mg-100-veg-capsules/537",
+   "title": "DMAE, 250 mg, 100 Veg Capsules", "brand": "NOW Foods", "role": "seller", "page_text": "Overview\nCustomer reviews"},
+  "replies": {"capture": null, "ask": null}},
+ {"name": "ProLife — 흐린 사진만(DSLD 없음)", "input": {"url": "https://world.openfoodfacts.org/product/4316268448895",
+   "title": "Vitamin C + Zink, Selen, Vitamin D3", "brand": "ProLife", "role": "seller", "page_text": "Overview", "images": ["(page image)"]},
+  "replies": {"capture": "data/samples/labels/failure-prolife-blurred.jpg", "ask": null}},
+ {"name": "Frontier 녹차 — 성분 글자 없음(사진에만)", "input": {"url": "https://kr.iherb.com/pr/frontier-co-op-organic-china-green-tea-16-oz-453-g/31204",
+   "title": "Organic China Green Tea, 16 oz (453 g)", "brand": "Frontier Co-op", "role": "seller", "page_text": "Overview\nOther ingredients\nFairtrade Organic China Green Tea may be mixed during processing.", "images": ["(page image)"]},
+  "replies": {"capture": null, "ask": null}},
+ {"name": "NOW Garcinia — 페이지 글자 없음(제품명만)", "input": {"url": "https://kr.iherb.com/pr/now-foods-garcinia-extract-120-tablets/55359",
+   "title": "Garcinia Extract, 120 Tablets", "brand": "NOW Foods", "role": "seller", "page_text": "Overview"},
+  "replies": {"capture": null, "ask": null}}
+]

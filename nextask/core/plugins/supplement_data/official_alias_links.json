@@ -1,0 +1,15 @@
+{
+  "items": {
+    "N,N-Dimethyl phenethylamine 등": {
+      "synonyms": [
+        "N-Phenethyl Dimethylamine",
+        "N,N-Dimethylphenethylamine"
+      ],
+      "cid": 25125,
+      "source_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/N-Phenethyl%20Dimethylamine/synonyms/JSON",
+      "official_entry_id": "2026110001",
+      "official_name": "N,N-Dimethyl phenethylamine 등",
+      "note": "Official listed alias, whitespace-normalized PubChem canonical name; does not assert identity with the preferred Methamphetamine name."
+    }
+  }
+}

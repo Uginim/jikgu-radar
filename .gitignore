@@ -1,0 +1,33 @@
+.env
+/data/*
+!/data/mfds/
+/data/mfds/*
+!/data/mfds/I2715-20261119.csv
+!/data/mfds/foodsafety_block_raw_irdnt_318_20261119.json
+!/data/mfds/snapshot/
+/data/mfds/snapshot/*
+!/data/mfds/snapshot/registry_20261119.json
+/models/
+/logs/
+.venv/
+__pycache__/
+*.pyc
+*.pem
+.DS_Store
+# 원격 응답 녹화에는 상품·사용자 입력이 들어가므로 로컬 전용
+nextask/core/recordings/*.jsonl
+# 참고용 사본(커밋 대상 아님)
+REQUIREMENTS-draft.md
+# 원격 서버 주소와 개발자 경로를 담을 수 있는 로컬 실험·촬영/작업 계획
+/docs/
+/scripts/e2e/
+/fly.toml
+*.env
+.env.*
+!.env.example
+node_modules/
+.judge-cache/
+*.ffconcat
+*.webm
+*.mp4
+.pytest_cache/

@@ -1,0 +1,9 @@
+{"_note": "모의 상점 장부 초기값(합성). 실제 마켓 데이터가 아님",
+ "products": {
+  "https://www.iherb.com/pr/SAMPLE-preworkout/2": {"title": "SAMPLE Pre-Workout Powder", "status": "등록 준비",
+    "purchase_orders": [{"id": "PO-1001", "qty": 20, "status": "open"}], "sold_orders": []},
+  "https://www.iherb.com/pr/SAMPLE-fatburner/4": {"title": "SAMPLE Fat Burner Capsules", "status": "판매 중",
+    "purchase_orders": [{"id": "PO-0990", "qty": 10, "status": "open"}],
+    "sold_orders": [{"id": "ORD-5501", "customer": "고객A(합성)", "qty": 1}, {"id": "ORD-5502", "customer": "고객B(합성)", "qty": 2}]}
+ },
+ "notifications": [], "review_queue": []}

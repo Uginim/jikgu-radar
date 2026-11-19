@@ -1,0 +1,35 @@
+{
+  "reviewed_on": "2026-11-20",
+  "links": [
+    {
+      "observed_name": "Echinacea purpurea",
+      "registry_id": "2023070077",
+      "registry_name": "Echinacea spp.",
+      "relation": "species_in_listed_genus",
+      "source": "Kew POWO",
+      "source_url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30035795-2",
+      "registry_kr": "에키네시아속",
+      "registry_etc": []
+    },
+    {
+      "observed_name": "Echinacea angustifolia",
+      "registry_id": "2023070077",
+      "registry_name": "Echinacea spp.",
+      "relation": "species_in_listed_genus",
+      "source": "Kew POWO",
+      "source_url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30035795-2",
+      "registry_kr": "에키네시아속",
+      "registry_etc": []
+    },
+    {
+      "observed_name": "Gurmar",
+      "registry_id": "2023070264",
+      "registry_name": "Gymnema Sylvestre",
+      "relation": "taxon_synonym",
+      "source": "NLM MeSH D031104",
+      "source_url": "https://meshb.nlm.nih.gov/record/ui?ui=D031104",
+      "registry_kr": "당살초",
+      "registry_etc": []
+    }
+  ]
+}

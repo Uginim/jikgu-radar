@@ -1,0 +1,38 @@
+{
+ "_note": [
+  "샘플 — 실제 식약처 원료 API 응답이 아님. 구조 확인용"
+ ],
+ "Garcinia cambogia": [
+  "Garcinia gummi-gutta",
+  "Malabar tamarind",
+  "가르시니아 캄보지아",
+  "HCA",
+  "Hydroxycitric acid"
+ ],
+ "Ascorbic acid": [
+  "Vitamin C",
+  "L-ascorbic acid",
+  "비타민C"
+ ],
+ "Ephedra": [
+  "Ma huang",
+  "마황",
+  "Ephedra sinica"
+ ],
+ "DMAA": [
+  "1,3-dimethylamylamine",
+  "Methylhexanamine",
+  "Geranamine",
+  "2-amino-4-methylhexane",
+  "Geranium extract",
+  "Pelargonium graveolens extract",
+  "Pelargonium graveolens"
+ ],
+ "Yohimbine": [
+  "Yohimbe",
+  "Yohimbe bark extract",
+  "Pausinystalia yohimbe",
+  "Pausinystalia johimbe",
+  "Corynanthe johimbe"
+ ]
+}

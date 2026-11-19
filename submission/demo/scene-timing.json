@@ -1,0 +1,58 @@
+[
+  {
+    "id": "introduction",
+    "start": 0,
+    "end": 8,
+    "case_id": "problem-context",
+    "source_start": 8,
+    "explanation_card": false
+  },
+  {
+    "id": "baseline",
+    "start": 8,
+    "end": 15,
+    "case_id": null,
+    "source_start": null,
+    "explanation_card": true
+  },
+  {
+    "id": "scenario-01",
+    "start": 15,
+    "end": 28,
+    "case_id": "1120-041731-78b1",
+    "source_start": 16,
+    "explanation_card": false
+  },
+  {
+    "id": "scenario-02",
+    "start": 28,
+    "end": 60.6,
+    "case_id": "1120-041746-070a",
+    "source_start": 29,
+    "explanation_card": false
+  },
+  {
+    "id": "scenario-03",
+    "start": 60.6,
+    "end": 104.56,
+    "case_id": "1120-041820-dd2b",
+    "source_start": 61.6,
+    "explanation_card": false
+  },
+  {
+    "id": "comparison",
+    "start": 104.56,
+    "end": 111.56,
+    "case_id": null,
+    "source_start": null,
+    "explanation_card": true
+  },
+  {
+    "id": "summary",
+    "start": 111.56,
+    "end": 116.68,
+    "case_id": null,
+    "source_start": 111.64,
+    "explanation_card": false
+  }
+]

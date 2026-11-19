@@ -1,0 +1,7 @@
+# 에이전트·웹 화면 의존성 (Zoro-1 모델은 원격 서버에서 돈다. 판정 서버는 별도 배포)
+fastapi==0.121.1
+uvicorn==0.38.0
+python-multipart==0.0.20
+starlette==0.49.3
+pydantic==2.14.3
+pillow==13.0.0

@@ -1,0 +1,63 @@
+[
+ {
+  "name": "1. 정상 — Best Naturals 비타민 C(부원료 없음) → 성분마다 차단 근거 없음 → '차단 성분을 찾지 못함' + 확인 범위",
+  "input": {
+   "url": "https://api.ods.od.nih.gov/dsld/v9/label/270873",
+   "title": "Best Naturals Vitamin C Pure Powder, 2.2 lb",
+   "brand": "Best Naturals",
+   "role": "seller",
+   "page_text": "Overview\nSupplement Facts\nServing Size 2.25 g\nVitamin C (As Ascorbic Acid) 2,250 mg\nOTHER INGREDIENTS: None.\nSuggested Use\nTake as directed."
+  },
+  "answers": []
+ },
+ {
+  "name": "2. 숨은 이름 — Herb Pharm Yohimbe(라벨 'Pausinystalia johimbe', 'yohimbine' 글자 없음) → 목록 기타명칭으로 차단 Yohimbine → 등록 보류 권고 + 단어 일치(Highlight This)는 놓침",
+  "input": {
+   "url": "https://api.ods.od.nih.gov/dsld/v9/label/207910",
+   "title": "Herb Pharm Yohimbe Liquid Extract, 1 fl oz",
+   "brand": "Herb Pharm",
+   "role": "seller",
+   "page_text": "Overview\nPausinystalia johimbe YOHIMBE\nSupplement Facts\nYohimbe bark (Pausinystalia johimbe) extract 613 mg\nSuggested Use\nTake as directed."
+  },
+  "answers": []
+ },
+ {
+  "name": "2b. 주인공 후보 — MuscleMeds Nitrotest(한국 아이허브 판매 중): 'Yohimbe bark extract (6% Yohimbine)' + '350 mg DMAE Bitartrate' → 차단 2개(Yohimbine, Deanol), 단어 일치는 1개만 (페이지 글자는 사용자가 확인한 2줄만 사용)",
+  "input": {
+   "url": "https://kr.iherb.com/pr/musclemeds-nitrotest-androgenic-pre-workout-amplifier-blue-raspberry-16-72-oz-474-g/120411",
+   "title": "MuscleMeds, Nitrotest, Androgenic Pre-Workout Amplifier, Blue Raspberry, 16.72 oz (474 g)",
+   "brand": "MuscleMeds",
+   "role": "seller",
+   "page_text": "Supplement Facts\nYohimbe bark extract (6% Yohimbine) 83 mg\n350 mg DMAE Bitartrate"
+  },
+  "answers": []
+ },
+ {
+  "name": "3. 실패 — 성분표 글자 없는 페이지 → 자동 캡처(흐린 사진) OCR → 판독 불가 → 영역 선택 요청 → 사용자 '성분표 없음' → 성분표를 읽지 못함",
+  "input": {
+   "url": "https://world.openfoodfacts.org/product/4316268448895",
+   "title": "ProLife Vitamin C + Zink, Selen, Vitamin D3",
+   "brand": "ProLife",
+   "role": "seller",
+   "page_text": "Overview\nCustomer reviews"
+  },
+  "answers": [
+   {
+    "answer": "yes",
+    "image": "data/samples/labels/failure-prolife-blurred.jpg"
+   },
+   "no"
+  ]
+ },
+ {
+  "name": "(장면, P1) 재검사 — NOW DMAE(라벨 'DMAE (Dimethylaminoethanol)') ↔ 차단 Deanol → 등록 보류 권고",
+  "input": {
+   "url": "https://api.ods.od.nih.gov/dsld/v9/label/245739",
+   "title": "NOW Foods DMAE 250 mg, 100 Veg Capsules",
+   "brand": "NOW Foods",
+   "role": "seller",
+   "page_text": "Supplement Facts\nDMAE (Dimethylaminoethanol) (from Dimethylaminoethanol Bitartrate) 250 mg"
+  },
+  "answers": []
+ }
+]

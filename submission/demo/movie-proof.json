@@ -1,0 +1,33 @@
+{
+  "file": "jikgu-radar.mp4",
+  "filmed_release": "integrated-0430",
+  "code_release": "integrated-0505",
+  "delivery_verified_by_owner": "2026-11-20 05:29 KST",
+  "actual_inference_rerun": false,
+  "sha256": "7096f1e5e7875e172c224ab801b099ad60fc78ea28eca7568295eb0be1b70e4a",
+  "duration_seconds": 116.68,
+  "decoder": "158.0.8127.18",
+  "frames": [
+    {
+      "time": 0.3,
+      "width": 2880,
+      "height": 2116,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "time": 58,
+      "width": 2880,
+      "height": 2116,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "time": 115.68,
+      "width": 2880,
+      "height": 2116,
+      "readyState": 4,
+      "error": null
+    }
+  ]
+}

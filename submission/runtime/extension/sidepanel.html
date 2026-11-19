@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>직구레이더 · 숨은 차단 성분 검수</title>
+<link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+<svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <symbol id="ui-page" viewBox="0 0 24 24"><path d="M13 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9l4 4v4M14 3v5h4M7 8h3M7 12h3M7 16h2"/><circle cx="16" cy="16" r="3.5"/><path d="m18.5 18.5 3 3"/></symbol>
+  <symbol id="ui-chat" viewBox="0 0 24 24"><path d="M20 15a2 2 0 0 1-2 2h-6l-5 4v-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2Z"/><path d="M7 9h4M7 13h3M14 8h3m-1.5 0v6M14 14h3"/></symbol>
+  <symbol id="ui-photo" viewBox="0 0 24 24"><path d="M14 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v7M3 16l5-4 4 4 3-2M19 15v7m-3.5-3.5h7"/><circle cx="14.5" cy="8.5" r="1.5"/></symbol>
+  <symbol id="ui-camera" viewBox="0 0 24 24"><path d="M4 6h3l2-3h6l2 3h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+  <symbol id="ui-list" viewBox="0 0 24 24"><path d="m3.5 6 1.5 1.5L8 4.5m-4.5 8L5 14l3-3m-4.5 8L5 20.5 8 17.5M11 6h9m-9 7h9m-9 7h9"/></symbol>
+  <symbol id="ui-person" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M5 21v-2a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v2"/></symbol>
+  <symbol id="ui-check" viewBox="0 0 24 24"><path d="m5 12 4 4 10-10"/></symbol>
+  <symbol id="ui-cross" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  <symbol id="ui-retry" viewBox="0 0 24 24"><path d="M20 10a8 8 0 1 0-1.2 7M20 4v6h-6"/></symbol>
+  <symbol id="ui-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+</svg>
+<header class="top">
+  <div class="brand">
+    <img class="brand-logo" src="assets/icons/icon-48.png" alt="" width="28" height="28">
+    <div class="brand-text"><b>직구레이더</b></div>
+    <span id="workstate" class="sr-only" role="status">시작 전</span>
+  </div>
+  <!-- 국내 판매 현황은 기존 P2 기능이며 시작 화면에 노출하지 않는다. -->
+  <div class="tabs" hidden><button class="tab on" data-tab="check">성분 검수</button><button class="tab" data-tab="market">국내 판매 현황</button></div>
+  <div class="product-context"><b id="producttitle">현재 상품</b><span id="productsite"></span><span id="productscope" class="scope-note" hidden></span></div>
+</header>
+<main id="conversation" tabindex="0" aria-label="현재 상품 검사">
+ <div data-pane="market" hidden>
+  <section class="card-sec"><button id="mscan">국내 판매 현황 찾기</button></section>
+  <section id="msummary" class="card-sec" hidden></section><section id="mlist" class="card-sec" hidden></section>
+ </div>
+ <div data-pane="check">
+  <p id="server-notice" class="scope-note" role="status">검사 전 · 실제 검사 서버 연결 필요</p>
+  <section id="batch-entry" class="batch-entry" hidden>
+    <h2>여러 상품 검사</h2>
+    <button id="batch-list" class="btn-scan">현재 목록에서 읽기</button>
+    <details><summary>상품 주소 넣기</summary>
+      <label class="sr-only" for="batch-urls">상품 주소 · 최대 5개</label>
+      <textarea id="batch-urls" rows="4" placeholder="상품 주소를 한 줄에 하나씩 · 최대 5개"></textarea>
+      <button id="batch-urls-go">주소의 상품 검사</button>
+    </details>
+    <details><summary>조건으로 사이트 검색</summary>
+      <form id="batch-search"><label class="sr-only" for="batch-query">찾을 상품 조건</label>
+        <textarea id="batch-query" rows="2" placeholder="예: 카페인 없는 운동 전 보충제"></textarea><button id="batch-search-go" type="submit">현재 사이트에서 찾기</button>
+      </form>
+      <div id="batch-clarify" hidden></div>
+    </details>
+    <p id="batch-entry-error" class="scope-note" role="status"></p>
+  </section>
+  <section id="batch-work" class="batch-work" hidden>
+    <h2>상품별 확인</h2>
+    <dl class="work-context"><div><dt>찾음</dt><dd id="batch-found">0</dd></div><div><dt>검사 결과 받음</dt><dd id="batch-engine">0</dd></div><div><dt>전체 성분 검토</dt><dd id="batch-checked">0</dd></div></dl>
+    <p id="batch-status" role="status"></p>
+    <table class="batch-table"><thead><tr><th scope="col">상품</th><th scope="col">확인 결과</th></tr></thead><tbody id="batch-rows"></tbody></table>
+    <section id="batch-questions" hidden><h3>직접 확인할 상품</h3><p class="scope-note">각 상품의 실제 라벨을 확인한 뒤 답하세요. 요청은 발급 후 30분 동안 한 번만 사용할 수 있습니다.</p><div id="batch-question-list"></div></section>
+  </section>
+  <div id="welcome" class="entry-grid">
+    <button id="entry-page" class="entry-button" disabled><svg class="ui-icon" aria-hidden="true"><use href="#ui-page"/></svg><span>페이지 검사</span></button>
+    <button id="entry-chat" class="entry-button" disabled><svg class="ui-icon" aria-hidden="true"><use href="#ui-chat"/></svg><span>말하기</span></button>
+    <button id="entry-photo" class="entry-button" disabled><svg class="ui-icon" aria-hidden="true"><use href="#ui-photo"/></svg><span>사진 넣기</span></button>
+  </div>
+  <section id="entrybox" class="entry-box" hidden>
+    <form id="entryform">
+      <label class="sr-only" for="entrytext">현재 상품에 대한 요청</label>
+      <textarea id="entrytext" rows="3" placeholder="현재 상품에 대해 요청하세요"></textarea>
+      <input id="entryfile" type="file" accept="image/png,image/jpeg" hidden>
+      <div id="photodrop" class="photo-drop" hidden tabindex="0" role="button" aria-label="성분표 사진 선택">성분표 사진 선택 · 붙여넣기 · 끌어놓기</div>
+      <figure id="photo-preview" hidden><img id="photo-image" alt="검사할 성분표 사진"><figcaption><span id="photo-name"></span><button id="remove-photo" type="button" class="ghost">지우기</button></figcaption></figure>
+      <div class="row"><button id="entrygo" type="submit" disabled>보내기</button><button id="inspect-photo" type="button" hidden>이 사진 검사</button><button id="attach-photo" type="button" class="ghost" hidden>사진 넣기</button></div>
+    </form>
+    <div id="entryanswer" role="status"></div><div id="entryoptions" class="row"></div>
+  </section>
+  <section id="work-summary" hidden>
+    <dl class="work-context"><div><dt>목표</dt><dd id="work-goal">차단 성분 확인</dd></div><div><dt>확인됨</dt><dd id="work-obtained">아직 없음</dd></div><div><dt>남음</dt><dd id="work-missing">성분표 확인</dd></div></dl>
+    <h3 class="progress-heading">진행 과정</h3>
+    <ol id="pipeline" class="pipeline" aria-label="확인한 단계"></ol>
+    <div id="live-activity" class="live-activity" role="status"></div>
+    <div id="retry-status" class="retry-status" hidden></div>
+  </section>
+  <article id="resultbundle" class="result-bundle" hidden>
+    <p id="result-counts" class="result-counts"></p>
+    <p id="followup-status" class="scope-note" role="status" hidden></p>
+    <section id="verdict" class="verdict" hidden></section>
+    <section id="blocked-evidence" class="blocked-evidence" hidden></section>
+    <div id="unresolved" class="unresolved" hidden></div>
+    <section id="source-summary" class="source-summary" hidden></section>
+    <div class="message-label"><span id="result-label">상품 검사 결과</span> <span id="pstatus" class="chip"></span></div>
+    <div id="result-next" class="result-next"></div>
+    <section id="case-actions" class="case-actions"></section>
+    <section id="photo-recovery" class="case-actions" hidden></section>
+    <details id="evidence-details"><summary>성분별 근거 · 선택 점수</summary>
+      <section id="ingredient-summary" class="ingredient-summary" hidden></section>
+      <section id="classline" class="classline" hidden></section>
+      <section id="items" class="items"></section><section id="compare" class="compare" hidden></section>
+      <div id="stats"></div><p class="scope-note">선택 점수는 정답률·통관 확률이 아닙니다.</p>
+    </details>
+    <details id="explanation-details"><summary>결과에 대해 질문</summary>
+      <form id="chat" class="chat" hidden><label for="chatin">근거 설명 · 재실행하지 않음</label><div class="row chat-row"><input id="chatin" placeholder="어떤 근거로 판단했나요?" autocomplete="off"><button id="chatgo" type="submit">보내기</button></div></form>
+      <div id="explanation-answer" role="status"></div>
+    </details>
+    <details id="alternative-details"><summary>조건으로 대체 후보 찾기</summary><div id="alternative-content"></div></details>
+  </article>
+  <section id="ask" class="ask" hidden></section>
+  <div id="composerhint" class="composer-hint" role="status"></div>
+  <details id="history-details" hidden><summary>실행 기록</summary>
+    <p id="unused-reasoning" class="scope-note" hidden></p>
+    <button id="latest" class="ghost latest" hidden>최근 기록</button><div id="log" class="thread" aria-label="시간순 실행 기록"></div>
+    <section id="journey" class="journey" hidden></section><section id="actions" class="actions" hidden></section>
+    <section id="links" class="links"></section>
+  </details>
+  <button id="scan" class="ghost btn-scan" hidden>다시 검사</button>
+  <button id="new-work" class="ghost btn-scan" hidden>새 작업</button>
+  <button id="reconnect" class="ghost" hidden>연결 · 상태 다시 확인</button>
+  <button id="batch-back" class="ghost" hidden>묶음 결과로 돌아가기</button>
+    <details class="settings"><summary>작업 설정</summary><div class="row"><label>역할 <select id="role"><option value="seller">판매자</option><option value="consumer">소비자</option></select></label></div><label>서버 <input id="server" aria-label="에이전트 서버 주소"></label></details>
+ </div>
+</main>
+<footer class="composer"><p class="scope-note">표시 성분만 확인 · 통관 보증 아님</p></footer>
+<script src="sidepanel.js"></script>
+</body>
+</html>

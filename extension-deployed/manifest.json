@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "직구레이더",
+  "description": "아이허브·아마존 상품 페이지에서 식약처 해외직구 차단 성분을 다른 이름까지 찾아 근거와 함께 보여 줍니다.",
+  "version": "0.1.0",
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.iherb.com/*",
+    "https://*.amazon.com/*",
+    "https://quiet-orbit-7f26.fly.dev/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "직구레이더 성분 검수 패널 열기",
+    "default_icon": {
+      "16": "assets/icons/icon-16.png",
+      "32": "assets/icons/icon-32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.iherb.com/*",
+        "https://*.amazon.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "48": "assets/icons/icon-48.png",
+    "128": "assets/icons/icon-128.png"
+  }
+}

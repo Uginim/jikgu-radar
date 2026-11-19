@@ -1,0 +1,59 @@
+/* 상품 페이지 위 표시 (디자인 세션 담당). 확장 폰트는 웹 페이지에 불러오지 않으므로 시스템 한글 폰트를 쓴다. */
+.nx-blocked, .nx-review, .nx-cart-warning, .nx-select-hint, .nx-label-outline, .nx-label-tag, .nx-result-badge {
+  --nx-bad:#d92d20; --nx-bad-bg:rgba(255,214,210,.85); --nx-warn:#e08a00; --nx-warn-bg:rgba(255,236,190,.9); --nx-accent:#2f54eb;
+  --nx-font:"Pretendard", -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+}
+
+/* 차단 성분: 형광 + 빨간 밑줄 + 작은 툴팁 */
+mark.nx-blocked, mark.nx-review { position:relative; color:inherit; border-radius:3px; padding:0 2px; margin:0 -2px;
+  -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+mark.nx-blocked { background:var(--nx-bad-bg); text-decoration:underline wavy var(--nx-bad); text-decoration-thickness:2px;
+  text-underline-offset:3px; box-shadow:inset 0 -2px 0 var(--nx-bad); font-weight:700; animation:nx-mark-in .6s ease-out 1; }
+mark.nx-review { background:var(--nx-warn-bg); text-decoration:underline dashed var(--nx-warn); text-decoration-thickness:2px; text-underline-offset:3px; }
+@keyframes nx-mark-in { 0% { background:rgba(217,45,32,.75); } 100% { background:var(--nx-bad-bg); } }
+
+/* 툴팁: data-tip 없으면 title. 차단 근거는 줄 안에 공간을 확보해
+   성분명·함량·이웃 행을 가리지 않는다. 확인 필요는 마우스를 올렸을 때. */
+mark.nx-blocked::after, mark.nx-review::after {
+  content:attr(title); position:absolute; left:-2px; bottom:calc(100% + 6px); z-index:2147483640;
+  padding:4px 9px; border-radius:6px; white-space:nowrap; pointer-events:none;
+  font:600 12px/1.4 var(--nx-font); letter-spacing:0; text-decoration:none; color:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.25);
+}
+mark.nx-blocked[data-tip]::after, mark.nx-review[data-tip]::after { content:attr(data-tip); }
+mark.nx-blocked { display:inline-block; max-width:100%; }
+mark.nx-blocked::after { position:static; display:block; width:fit-content; max-width:min(30rem, calc(100vw - 32px));
+  box-sizing:border-box; margin:6px 0 3px; white-space:normal; overflow-wrap:anywhere;
+  background:var(--nx-bad); text-align:left; }
+mark.nx-review::after { background:#8a4b00; opacity:0; transition:opacity .15s; }
+mark.nx-review:hover::after { opacity:1; }
+
+/* 실제 DOM·이미지 또는 판매자가 선택한 사각형만 표시한다. 이미지 안 글자 좌표는 추정하지 않는다. */
+.nx-label-outline { position:fixed; z-index:2147483638; pointer-events:none; border:3px solid var(--nx-accent); border-radius:4px; box-sizing:border-box; }
+.nx-label-outline[hidden], .nx-result-badge[hidden] { display:none !important; }
+.nx-label-tag { position:absolute; left:0; top:-28px; max-width:calc(100vw - 32px); width:max-content; padding:3px 8px; box-sizing:border-box;
+  border-radius:5px; background:var(--nx-accent); color:#fff; font:600 12px/1.5 var(--nx-font); white-space:normal; overflow-wrap:anywhere; }
+.nx-result-badge { position:fixed; right:16px; top:16px; z-index:2147483640; max-width:calc(100vw - 32px); padding:9px 12px;
+  border:1px solid #e08a00; border-radius:9px; background:#fff1df; color:#7d4200; box-shadow:0 2px 8px rgba(0,0,0,.15);
+  font:700 13px/1.4 var(--nx-font); pointer-events:none; box-sizing:border-box; overflow-wrap:anywhere; }
+.nx-result-badge[data-result="blocked"] { border-color:#d92d20; background:#fdecea; color:#a3160d; }
+.nx-result-badge[data-result="not_found"] { border-color:#147d50; background:#e6f4ed; color:#11643f; }
+.nx-captured { animation:nx-capture-flash .5s ease-out 1; }
+@keyframes nx-capture-flash { from { background:rgba(47,84,235,.22); } to { background:transparent; } }
+
+/* 구매 버튼 옆 경고 띠 */
+.nx-cart-warning { display:flex; align-items:flex-start; gap:8px; margin:8px 0; padding:10px 12px 10px 14px; border-radius:8px;
+  background:#fdecea; color:#8f130a; border:1.5px solid var(--nx-bad); border-left-width:6px;
+  font:700 14px/1.45 var(--nx-font); text-align:left; box-shadow:0 2px 6px rgba(217,45,32,.18);
+  animation:nx-warn-in .4s ease-out 1; }
+@keyframes nx-warn-in { from { opacity:0; transform:translateY(-4px); } }
+
+/* 영역 선택 */
+.nx-select-overlay { position:fixed; inset:0; z-index:2147483646; cursor:crosshair; background:rgba(16,24,40,.35); }
+.nx-select-box { position:fixed; z-index:2147483647; border:2px solid #2f54eb; background:rgba(47,84,235,.12); border-radius:4px;
+  box-shadow:0 0 0 9999px rgba(16,24,40,.25); }
+.nx-select-hint { position:fixed; top:16px; left:50%; transform:translateX(-50%); z-index:2147483647;
+  background:var(--nx-accent); color:#fff; padding:10px 16px; border-radius:10px; font:600 15px/1.4 var(--nx-font);
+  box-shadow:0 4px 14px rgba(0,0,0,.25); }
+
+@media (prefers-reduced-motion: reduce) { mark.nx-blocked, .nx-cart-warning, .nx-captured { animation:none; } }

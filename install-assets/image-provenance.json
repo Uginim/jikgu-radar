@@ -1,0 +1,169 @@
+[
+  {
+    "file": "01-developer.png",
+    "original": "01-extensions.png",
+    "original_sha256": "5b2ebcbaf3655478727f8c75ed8349c1c11db7739564dddd98aeee32efbc8db0",
+    "sha256": "6c37ea2bdde10679113d71ba62e70b827be89234f3f770c4d3100d104331c764",
+    "crop": [
+      0,
+      0,
+      1280,
+      240
+    ],
+    "annotations": [
+      [
+        1224,
+        8,
+        1276,
+        49,
+        "1"
+      ]
+    ]
+  },
+  {
+    "file": "02-load.png",
+    "original": "04-developer-enabled.png",
+    "original_sha256": "a8049cdb47d7e0be9d952a6cd69245f53165b80f03bf447f855eb27cba79dc10",
+    "sha256": "435c0259d1621a7b847f2675a28754088e317ea9c91eba7f4dc24d1fcb283580",
+    "crop": [
+      0,
+      0,
+      2564,
+      360
+    ],
+    "annotations": [
+      [
+        42,
+        124,
+        440,
+        211,
+        "2"
+      ]
+    ]
+  },
+  {
+    "file": "04-installed.png",
+    "original": "07-installed-extension.png",
+    "original_sha256": "7fb612c11e9468b95ddc46c8bc0f102c24c2aeea43bf4d58d41c5424c8bf1b44",
+    "sha256": "c6f9dbfc922410e8f03dc065e7aaaede2f1deddf6fd645a502a75732c0d6334c",
+    "crop": null,
+    "annotations": []
+  },
+  {
+    "file": "05-pin.png",
+    "original": "09-pin-control.png",
+    "original_sha256": "10db3e1f4dfd3243a9c67d54662fd404e9d79d9de5f4fce802c70f6d79e2fb34",
+    "sha256": "4f053321989c824d2b9482adb47c7065bb0ce7d82ce707792a3ab7f761b63c8b",
+    "crop": [
+      650,
+      640,
+      2000,
+      800
+    ],
+    "annotations": [
+      [
+        1256,
+        76,
+        1324,
+        120,
+        "5"
+      ]
+    ]
+  },
+  {
+    "file": "06-inspect.png",
+    "original": "10-ready-panel.png",
+    "original_sha256": "6cbfdf16ab7a6546ef12310e64967dbf5dca79ffc96381c41991aaa13e62948d",
+    "sha256": "4b61de450d7a9ad0e2d148125572274e2aef485f2ec17f3526b55132cb5d5bcc",
+    "crop": null,
+    "annotations": [
+      [
+        12,
+        368,
+        157,
+        484,
+        "6"
+      ],
+      [
+        303,
+        368,
+        448,
+        484,
+        "7"
+      ]
+    ]
+  },
+  {
+    "file": "07-result.png",
+    "original": "11-nitro-outcome.png",
+    "original_sha256": "398d916c8a5ae642deed1f65307d0e3162325a34aa4bc3f4b223bbb10e1f820c",
+    "sha256": "7038c1f8bfa196aa3a700b9ac3b2f790c3106eac0b9eded9c2b687c15dacd335",
+    "crop": null,
+    "annotations": []
+  },
+  {
+    "file": "08-health.png",
+    "original": "02-health-8000.png",
+    "original_sha256": "8cfebd454eb3c766ac9d9c60c6b35bdffcb9003d0d3e2bf5bdedd920c44431b4",
+    "sha256": "01514f3605bc8871ba29f8be91a1602be7da4117ab434e751821f8ed08612955",
+    "crop": [
+      0,
+      0,
+      1280,
+      110
+    ],
+    "annotations": [
+      [
+        0,
+        25,
+        430,
+        54,
+        "8"
+      ]
+    ]
+  },
+  {
+    "file": "09-replay.png",
+    "original": "05-replay-results.png",
+    "original_sha256": "af3e2a53dee9423db69d224d0c94ec4b99c3989a2fc41a294544e662cfe59334",
+    "sha256": "528eff37b8bd77ed402fa0792a9f872ec9b13ec737626894fde74e27d6f3f460",
+    "crop": null,
+    "annotations": []
+  },
+  {
+    "file": "10-server.png",
+    "original": "12-local-server-setting.png",
+    "original_sha256": "c6c1b5fbc1e3b3346eb65a7df7b2274f1c26ccc9d228a105411a0481ad320bd8",
+    "sha256": "ea6c6078ebdbf9d61469cd88fdb6df371a4dbf7d61716ecfbe9dfa9e05ab6a2b",
+    "crop": null,
+    "annotations": []
+  },
+  {
+    "file": "11-photo.png",
+    "original": "13-photo-entry.png",
+    "original_sha256": "3df43683a3babd5429dfe968ff127846c77eae453e7d40784f1c251254f28600",
+    "sha256": "c5171b0bbe1af199005aef38ddb6b4d570340fa46bd22070a49234bf9c561b60",
+    "crop": null,
+    "annotations": [
+      [
+        12,
+        590,
+        448,
+        661,
+        "9"
+      ]
+    ]
+  },
+  {
+    "file": "03-choose-folder.png",
+    "original_sha256": "b4479e6e82a629f4e6760a350f4fcc1048c43d3c7ee1229d7b8afc81cde8f945",
+    "sha256": "8333915a3034a21a02f7f31611f713b507e38c2fb1274e953345b74393562298",
+    "crop": [
+      730,
+      430,
+      2170,
+      1310
+    ],
+    "note": "Personal sidebar cropped; actual chooser attempt, not proof of completed manual selection"
+  }
+]

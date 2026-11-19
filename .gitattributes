@@ -1,0 +1,2 @@
+# Freeze the exact MFDS input bytes used by submission/release.json.
+*.csv -text
